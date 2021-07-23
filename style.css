@@ -12,7 +12,7 @@ body{
     width: 40%;
     margin-left: 5%;
 }
-.left-side span{
+span{
     color: orange;
 
 }
@@ -55,7 +55,7 @@ body{
 }
 .about-area{
     width: 40%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .about-area h1{
     font-size: 30px;
@@ -68,4 +68,61 @@ body{
     font-weight: 400;
     padding-bottom: 40px;
     line-height:30px;
+}
+/* recipies-section */
+.recipies{
+    padding: 70px 0;
+}
+.top-section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.top-section h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(87, 82, 82);
+}
+.top-section p{
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height:30px;
+}
+.food-item{
+    display: flex;
+   
+}
+.ciken-rost{
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+    padding: 15px;
+    height: 400px;
+}
+.ciken-rost h1{
+    font-weight:900;
+}
+.ciken-rost p{
+    font-weight: 400;
+}
+.ciken-rost img{
+    width: 100%;
+    border-radius: 10px;
+    max-height: 40%;
+    padding-bottom: 30px;
+}
+footer{
+    background: black;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+footer h1{
+    color: gray;
+    font-size: 25px;
+}
+footer h5{
+    color: rgb(209, 204, 204);
+    font-weight: 400;
 }
