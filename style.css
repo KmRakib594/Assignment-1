@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header section */
+.hader-section{
+    display: flex;
+
+}
+/* left section */
+.left-side{
+    width: 40%;
+    margin-left: 5%;
+}
+.left-side span{
+    color: orange;
+
+}
+.left-side h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(87, 82, 82);
+}
+.left-side p{
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height:30px;
+}
+.left-side a{
+    background: orange;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+/* right-section */
+.right-side{
+    width: 50%;
+}
+.right-side img{
+    width: 100%;
+}
